@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>DFW Tax Services | Feedback Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a tax firm's website">
+  <meta name="keywords" content="Tax Returns, Taxes, Refund, Business, Accounting">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="myStyles.css" media="screen">
+</head>
+
+<body class="w3-container mainBody">
+  <div id="mainContainer">
+	<div id="banner" class="w3-container">
+      <a href="index.html"><img src="images/1.JPG" id="logoImg" alt="Caroline's Tax Services" title="Caroline's Tax Services"></a>
+    </div>
+	<div id="mainContent" class="w3-container">
+      <div class="w3-container" id="mainMenuDiv">
+        <div class="w3-bar w3-blue-gray" id="navContent">
+          <a href="index.html" title="Home Page" class="w3-bar-item w3-hover-pale-blue">Home</a>
+          <a href="about.html" title="About Us" class="w3-bar-item w3-hover-pale-blue">About Us</a>
+          <a href="services.html" title="Services" class="w3-bar-item w3-hover-pale-blue">Services</a>
+          <a href="resources.html" title="Resources Page" class="w3-bar-item w3-hover-pale-blue">Resources</a>
+          <a href="contactus.html" title="Contact Us" class="w3-bar-item w3-hover-pale-blue">Contact Us</a>
+          <a href="sitemap.html" title="Site Map" class="w3-bar-item w3-hover-pale-blue">Site Map</a>
+        </div>
+      </div>
+      <div class="w3-container">
+        <div id="breadcrumbs">
+          &gt; <a href="index.html">Home</a>
+		  &gt; <a href="contactus.html">Contact Us</a>
+          &gt; Feedback Form
+        </div>
+      </div>
+	
+<div id="content2" class="w3-container">
+  <section id="section1">
+  <h2>Feedback Form</h2>
+  <p id="Paragraph1">If you have any questions, please let us know.</p>
+	<form method="post" action="https://www.jimlink.net/PHPStuff/testFormData.php" target="_blank">
+	 <table>
+            <tr>
+              <td class="formLabel">Name: </td>
+              <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+              <td class="formLabel">E-Mail: </td>
+              <td><input type="text" name="email" required></td>
+            </tr>
+			<tr>
+              <td class="formLabel">Phone Number: </td>
+              <td><input type="text" name="phoneNumber"></td>
+            </tr>
+            <tr>
+              <td class="formLabel">Best Time to Call: </td>
+              <td><input type="text" name="bestTimetoCall"></td>
+            </tr>
+            <tr>
+              <td class="formLabel">Subject: </td>
+              <td><select name="Subject">
+                    <option value="comment" selected>Comment</option>
+                    <option value="question">Question</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="error on site">Error on Site</option>
+                  </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="formLabel">Your Message: </td>
+              <td>
+                <textarea name="comments" rows="4" cols="40"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" value="Send Your Feedback"></td>
+            </tr>
+     </table>
+    </form>
+    <br><br><br>
+  </section>
+  <footer>
+    <p id="foot">&copy; Copyright 2018</p>
+  </footer>
+</div>
+	</div>
+ </div>
+</body>
+</html>

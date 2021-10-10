@@ -1,0 +1,122 @@
+
+#Paragraph1
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+#Paragraph2
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	color: #205FBD;
+	font-weight: bold;
+}
+
+.otherPara
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+	color: gray;
+	font-weight: bold;
+}
+
+#banner
+{
+  margin-left: 16px;
+  width: 98%;
+}
+
+#logoImg
+{
+  width: 99%;
+}
+
+
+#taxTime
+{
+	float: right;
+	margin-left: 1.2em;
+}
+
+#foot
+{
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+	color: gray;
+}
+
+
+#Paragraph1
+{
+	text-align: justify;
+}
+
+ul 
+{
+	color: gray;
+}
+
+
+#links2 a:link
+{
+	color:#080807;
+}
+
+
+#links2 a:visited
+{
+	color:#205FBD;
+}
+
+
+#links2 a:hover
+{
+	color:#689BE8;
+}
+
+#single
+{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#single
+{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.centered
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+#single td
+{
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+#MFJ
+{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#MFJ
+{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#MFJ td
+{
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+
